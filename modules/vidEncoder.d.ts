@@ -1,6 +1,6 @@
-//  VidEncoderUploader, is designed for encoding videos and handling video file uploads.
+//  FilEncoderUploader, is designed for encoding files and handling files file uploads.
 
-declare module 'vidEncoder' {
+declare module 'filEncoder' {
   import { IncomingMessage, ServerResponse } from 'http';
 
   export interface File {
